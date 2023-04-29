@@ -1,0 +1,144 @@
+
+@media (max-width: 780px) {
+
+    .containerAll {
+        height: min(90vh, 1100px);
+    
+        width: min(90vw, 1100px);
+       
+    }
+    
+
+    .containerInfosUser {
+        gap: 1rem;
+    }
+    
+    /* .profileUser {
+        margin: 0;
+        width: 60%;
+    } */
+
+    .profile {
+        width: 60%;
+        /* display: flex;
+        align-items: center;
+        justify-content: space-between; */
+    }
+
+    .sectionProfile {
+        justify-content: space-between;
+
+        grid-template-columns: 100%;
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .sectionInfoProfile {
+        margin-top: 1rem;
+    }
+
+
+    .containerInfos {
+        margin-top: 1rem;
+
+        gap: 5rem 0rem;
+    }
+
+    .sectionInfoFoll {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .sectionInfoFoll ul {
+        width: 100%;
+    }
+
+
+    .sectionInfoLocation {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+    }
+
+    .sectionInfoLocation ul {
+        grid-template-columns: 100%;
+    }
+
+
+}
+
+
+
+@media (max-width: 400px) {
+
+    .containerAll {
+        height: min(100vh, 1100px);
+    }
+
+    /* .sectionInfoFoll {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .sectionInfoFoll ul {
+        flex-direction: row; 
+
+    }
+
+
+    .sectionInfoLocation {
+
+        word-break: break-all;
+
+    }
+
+
+}
+
+
+@media (max-width: 340px) {
+
+    .containerAll {
+        margin: -2rem auto;
+        height: min(100vh, 1100px);
+
+    }
+
+    .sectionInfoFoll ul {
+        flex-direction: column; 
+
+    }
+
+    .profileUser {
+        margin: 0;
+        width: 80%;
+    }
+
+
+    input[type="text"] {
+        margin: 0;
+        width: 100%;
+    }
+
+    #btnSearch {
+        display: none;
+    }
+
+}
+
+
+
+
+

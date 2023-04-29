@@ -2,7 +2,7 @@
   "name": "searchgithubapi",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://renananthony13.github.io/SearchGitHubUser",
+  "homepage": "https://Renananthony13.github.io/SearchGitHubUser",
   "type": "module",
   "scripts": {
     "dev": "vite",
